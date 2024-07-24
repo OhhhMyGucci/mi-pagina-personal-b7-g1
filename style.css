@@ -1,0 +1,58 @@
+/*
+selector de etiqueta:
+Ocupa el nombre de la etiqueta y modifica todas las ocurrencias
+*/
+
+/*Selector universal*/
+* {
+    font-family: Georgia, serif;
+}
+body {
+    background-color:rgba(255, 182, 193, 0.462);
+}
+p {
+    color:rgb(82, 72, 78);
+}
+footer {
+    text-align: end;
+}
+/*Los textos centrados solo sirven para parrafos*/
+h1 {
+    text-align: center;
+}
+/*
+Selector de clase
+*/
+.centrado {
+    text-align: center;
+}
+
+.imagen {
+    border: 10px solid #000;
+    width: 600px;
+    height: auto;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+#navegacion {
+    display: inline;
+}
+
+/*
+Selector combinado
+Aquí podemos combinar mas de una opción
+para ir flitrando etiquetas
+*/
+#navegacion li {
+    display: inline;
+}
+/* 
+id objetos únicos
+#nombre_de_id {
+
+}
+
+*/
